@@ -11,4 +11,6 @@ h1{
 }
 .details{
   color: white;
+  font-style: oblique;
+  font-family: fantasy;
 }
