@@ -1,0 +1,14 @@
+h1{
+  font-style: italic;
+  font-family: fantasy;
+  align-content: center;
+  text-decoration: underline;
+  clear: both;
+  color: white;
+}
+.jumbotron{
+  background-image: url(https://etimes.com.ng/wp-content/uploads/2017/03/brown-wood-plain-light-color-wallpaper-best-hd-wallpapers.jpg);
+}
+.details{
+  color: white;
+}

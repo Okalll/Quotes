@@ -1,4 +1,8 @@
 #quotesForm{
   font-family:cursive;
   background-clip: border-box;
+  background-color: grey;
+}
+.col-md-6{
+  opacity: 0.7;
 }

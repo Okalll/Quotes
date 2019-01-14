@@ -1,22 +1,24 @@
-<div class="jumbotron">
-<h1 text-align: centre>Quotes</h1>
-<app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
-<div *ngFor='let quote of quotes;let i = index'>
-  <div class="details">
-    <p> Quote: "{{quote.quote}}"</p>
-    <p>Author: {{quote.author}}</p>
+<div class="container">
+  <div class="jumbotron">
+    <h1 align="center">Quotes</h1>
+    <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+    <div *ngFor='let quote of quotes;let i = index'>
+      <div class="details">
+        <p> Quote: "{{quote.quote}}"</p>
+        <p>Author: {{quote.author}}</p>
+      </div>
+
+      <ul>
+        <p>{{quote.author|titlecase}} posted on {{quote.completeDate|date}}</p>
+      </ul>
+
+      <button type="button" class=" btn btn-success" (click)="upVote()">Up Vote{{count}}</button>
+
+      <button type="button" class="btn btn-danger" (click)="downVote()">Down Vote{{sum}}</button>
+
+      <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+
+    </div>
+    <br>
   </div>
-
-  <ul>
-    <p>{{quote.author|titlecase}} posted on {{quote.completeDate|date}}</p>
-  </ul>
-
-    <button type="button" class=" btn btn-success" (click)="upVote()">Up Vote{{count}}</button>
-
-    <button type="button" class="btn btn-danger" (click)="downVote()">Down Vote{{sum}}</button>
-
-    <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
-
-</div>
-<br>
 </div>
