@@ -42,8 +42,8 @@ export class QuotesComponent implements OnInit {
   count=0;
   upVote(){this.count=this.count +1;
   }
-  sum=0;
-  downVote(){this.sum=this.sum +1;
+  // sum=0;
+  downVote(){this.count=this.count -1;
   }
 
   constructor() { }

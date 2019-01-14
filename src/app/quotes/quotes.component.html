@@ -3,7 +3,7 @@
 <div *ngFor='let quote of quoted;let i = index'>
 
   <ul>
-    <p>{{quote.author|titlecase}} posted on {{quote.completeDate|date|uppercase}}</p>
+    <p>{{quote.author|titlecase}} posted on {{quote.completeDate|date}}</p>
   </ul>
 
   <p>
@@ -11,7 +11,7 @@
 
     <button type="button" class=" btn btn-success" (click)="upVote()">Up Vote{{count}}</button>
 
-    <button type="button" class="btn btn-danger" (click)="downVote">Down Vote{{count}}</button>
+    <button type="button" class="btn btn-danger" (click)="downVote()">Down Vote{{sum}}</button>
 
     <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
 
