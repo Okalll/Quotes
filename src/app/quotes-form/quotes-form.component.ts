@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/core';
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quotes-form',
@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/core';
   styleUrls: ['./quotes-form.component.css']
 })
 export class QuotesFormComponent implements OnInit {
+
+  
 
   constructor() { }
 

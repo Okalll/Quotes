@@ -1,1 +1,18 @@
-<app-quotes></app-quotes>
+<h1>Quotes</h1>
+  <div *ngFor="let quote of quoted;let i = index">
+<ul>
+  <li id="{{i}}">{{quote.name}} post on {{quote.completeDate|date|uppercase}}</li>
+</ul>
+
+
+    <button type="button" (click)="toggleDetails(i)">Details</button>
+
+    <button type="button" (click)="upVote">Up Vote</button>
+
+    <button type="button" (click)="downVote">Down Vote</button>
+
+    <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+
+  </div>
+  <br>
+  <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
