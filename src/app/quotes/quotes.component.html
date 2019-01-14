@@ -1,8 +1,11 @@
+<div class="jumbotron">
 <h1 text-align: centre>Quotes</h1>
 <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
 <div *ngFor='let quote of quoted;let i = index'>
-
   <ul>
+    <li *ngFor='let quote of quotes'>{{newQuote.quote}}</li>
+  </ul>
+    <ul>
     <p>{{quote.author|titlecase}} posted on {{quote.completeDate|date}}</p>
   </ul>
 
@@ -17,3 +20,4 @@
 
 </div>
 <br>
+</div>
