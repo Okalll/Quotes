@@ -31,12 +31,19 @@ export class QuotesComponent implements OnInit {
       }
     }
   }
+  addNewQuote(quote){
+  let quoteLength = this.quotes.length;
+  quote.id=quoteLength++;
+  quote.completeDate = new Date(quote.completeDate)
+  this.quotes.push(quote)
 
-  upVote(index) {
-    this.quoted[index].upvotes += 1;
+}
+
+  count=0;
+  upVote(){this.count=this.count +1;
   }
-  downVote(index) {
-    this.quoted[index].downvotes += 1;
+  sum=0;
+  downVote(){this.sum=this.sum +1;
   }
 
   constructor() { }

@@ -1,6 +1,6 @@
 <div class="jumbotron">
   <div class="col-md-6">
-    <form #form='ngForm'>
+    <form (ngSubmit)='submitQuote()' #form='ngForm'>
       <div class="form-group">
         <label for="author">Author</label>
         <input type="text" required class="form-control" id="author" name="author" ngModel placeholder="Author">
