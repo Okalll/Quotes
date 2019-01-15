@@ -13,7 +13,7 @@ This application enables a user to write quotes and post them, they could also u
 To start using this project use the following commands:
 
 * `git clone https://github.com/Okalll/Quotes.git`
-* `cd Quotes-App`
+* `cd Quotes`
 * `atom .`
 * `code .` (this is if Visual Studio Code is your preferred text editor)
 ## Link to Live Website
