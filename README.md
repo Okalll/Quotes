@@ -18,7 +18,7 @@ To start using this project use the following commands:
 
 ## Link to Live Website
 
-https://Okalll.github.io/Quotes
+https://okalll.github.io/Quotes/
 
 ### License
 
