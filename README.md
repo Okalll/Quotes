@@ -6,7 +6,7 @@ By Okall Vivian
 
 ## Description
 
-This application enables a user to write quotes and post them, they could also upvote them or downvote them
+This application enables a user to write quotes and post them, they could also upvote them or downvote them and also delet the quote.
 
 ## Setup/Installation Requirements
 
@@ -15,10 +15,13 @@ To start using this project use the following commands:
 * `git clone https://github.com/Okalll/Quotes.git`
 * `cd Quotes`
 * `atom .`
-* `code .` (this is if Visual Studio Code is your preferred text editor)
+
 ## Link to Live Website
+
 https://Okalll.github.io/Quotes
+
 ### License
+
 MIT License
 
 Copyright (c) 2019 Okall Vivian
