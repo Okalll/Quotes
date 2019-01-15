@@ -1,7 +1,9 @@
 <div class="container">
   <div class="jumbotron">
     <h1 align="center">Quotes</h1>
+
     <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+    
     <div *ngFor='let quote of quotes;let i = index'>
       <div class="details">
         <p> Quote: "{{quote.quote}}"</p>
