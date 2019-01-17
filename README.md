@@ -26,9 +26,9 @@ The Author's name
 The publishers's name.
 
 ### Output:
-The quote
-
-
+The quote is displayed.
+The Author
+The upvote and downvote and also the delete button.
 
 ## Known Bugs
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
