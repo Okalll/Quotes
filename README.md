@@ -22,12 +22,16 @@ To start using this project use the following commands:
 
 ### Input:
 A quote is written
+
 The Author's name
+
 The publishers's name.
 
 ### Output:
 The quote is displayed.
+
 The Author
+
 The upvote and downvote and also the delete button.
 
 ## Known Bugs
