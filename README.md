@@ -17,6 +17,19 @@ To start using this project use the following commands:
 * `cd Quotes`
 * `atom .`
 
+## Behaviour Driven development.
+-The application enables a user to write quotes and they get displayed with the upvote and downvote button and also the delete button.
+
+### Input:
+A quote is written
+The Author's name
+The publishers's name.
+
+### Output:
+The quote
+
+
+
 ## Known Bugs
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
 
