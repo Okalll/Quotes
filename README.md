@@ -2,11 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
-By Okall Vivian
+## AUTHORS
+Okall Vivian.
 
 ## Description
 
-This application enables a user to write quotes and post them, they could also upvote them or downvote them and also delet the quote.
+This application enables a user to write quotes and post them, they could also upvote them or downvote them and also delete the quote.
 
 ## Setup/Installation Requirements
 
@@ -15,6 +16,18 @@ To start using this project use the following commands:
 * `git clone https://github.com/Okalll/Quotes.git`
 * `cd Quotes`
 * `atom .`
+
+## Known Bugs
+For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
+
+## Technologies used
+1. html
+
+2. css
+
+3. Javascript and Typescript.
+
+4. Bootstrap.
 
 ## Link to Live Website
 
